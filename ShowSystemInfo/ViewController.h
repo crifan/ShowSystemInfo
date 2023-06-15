@@ -20,8 +20,7 @@
 
 - (IBAction)carrierBtnClicked:(UIButton *)sender;
 - (IBAction)statusCarrierBtnClicked:(UIButton *)sender;
-
-
+- (IBAction)udidBtnClicked:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UILabel *nameLbl;
 @property (weak, nonatomic) IBOutlet UILabel *systemNameLbl;
@@ -42,6 +41,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *mncLbl;
 
 @property (weak, nonatomic) IBOutlet UILabel *statusServiceStrLbl;
+@property (weak, nonatomic) IBOutlet UILabel *udidLbl;
 
 @end
 

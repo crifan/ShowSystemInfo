@@ -12,6 +12,10 @@
 #import <sys/types.h>
 #import <sys/sysctl.h>
 
+// Mobile Gestalt EquipmentInfo
+extern CFTypeRef MGCopyAnswer(CFStringRef);
+//static CFStringRef (*$MGCopyAnswer)(CFStringRef);
+
 @interface ViewController ()
 
 @end
@@ -354,5 +358,33 @@ NSString * getHwMachine(void) {
     _idfvLbl.text = curDevModelStr;
 }
 
+
+- (IBAction)udidBtnClicked:(id)sender {
+    NSLog(@"UDID button clicked");
+//    NSString *udidNSStr = nil;
+    NSString *udidNSStr = @"Fail to get UDID";
+
+    CFTypeRef udidCfStr = MGCopyAnswer(CFSTR("UniqueDeviceID"));
+    if (udidCfStr) {
+        udidNSStr = [NSString stringWithString: (__bridge NSString * _Nonnull)(udidCfStr)];
+        CFRelease(udidCfStr);
+    }
+    
+//    void *gestalt(dlopen("/usr/lib/libMobileGestalt.dylib", RTLDGLOBAL | RTLDLAZY));
+//    $MGCopyAnswer = reinterpret_cast(dlsym(gestalt, "MGCopyAnswer"));
+//    udidNSStr = (__bridge id)$MGCopyAnswer(CFSTR("UniqueDeviceID"));
+
+//    // NOTE: Can't link to dylib as it doesn't exist in older iOS versions.
+//    void *handle = dlopen("/usr/lib/libMobileGestalt.dylib", RTLD_LAZY);
+//    if (handle != NULL) {
+//        CFPropertyListRef (*MGCopyAnswer)(CFStringRef) = (CFPropertyListRef (*)(CFStringRef))dlsym(handle, "MGCopyAnswer");
+//        if (MGCopyAnswer != NULL) {
+//            udidNSStr = (__bridge NSString *)(MGCopyAnswer(CFSTR("UniqueDeviceID")));
+//        }
+//        dlclose(handle);
+//    }
+
+    _udidLbl.text = udidNSStr;
+}
 
 @end

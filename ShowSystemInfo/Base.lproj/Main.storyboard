@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -89,7 +89,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="identifierForVendor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Of-vu-dbO">
-                                <rect key="frame" x="162" y="392" width="194" height="21"/>
+                                <rect key="frame" x="162" y="384" width="194" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                                 <color key="tintColor" systemColor="systemGray3Color"/>
@@ -98,7 +98,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="allowsVOIP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fu-zg-05U">
-                                <rect key="frame" x="162" y="436" width="194" height="21"/>
+                                <rect key="frame" x="162" y="421" width="194" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                                 <color key="tintColor" systemColor="systemGray3Color"/>
@@ -107,7 +107,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="carrierName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14c-Fj-5e0">
-                                <rect key="frame" x="162" y="465" width="194" height="21"/>
+                                <rect key="frame" x="162" y="450" width="194" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                                 <color key="tintColor" systemColor="systemGray3Color"/>
@@ -116,7 +116,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="isoCountryCode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAf-C8-t46">
-                                <rect key="frame" x="162" y="494" width="194" height="21"/>
+                                <rect key="frame" x="162" y="479" width="194" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                                 <color key="tintColor" systemColor="systemGray3Color"/>
@@ -125,7 +125,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="mobileCountryCode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lMU-qJ-ArA">
-                                <rect key="frame" x="162" y="523" width="194" height="21"/>
+                                <rect key="frame" x="162" y="508" width="194" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                                 <color key="tintColor" systemColor="systemGray3Color"/>
@@ -134,7 +134,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="mobileNetworkCode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hX-rJ-m1s">
-                                <rect key="frame" x="162" y="552" width="194" height="21"/>
+                                <rect key="frame" x="162" y="537" width="194" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                                 <color key="tintColor" systemColor="systemGray3Color"/>
@@ -179,7 +179,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OwC-kz-uwY">
-                                <rect key="frame" x="6" y="387" width="148" height="31"/>
+                                <rect key="frame" x="6" y="379" width="148" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="获取IDFV"/>
@@ -188,7 +188,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CO1-oA-Tit">
-                                <rect key="frame" x="6" y="436" width="148" height="31"/>
+                                <rect key="frame" x="6" y="421" width="148" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="获取运营商信息"/>
@@ -197,7 +197,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gts-r7-ywG">
-                                <rect key="frame" x="6" y="591" width="148" height="31"/>
+                                <rect key="frame" x="6" y="567" width="148" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="获取状态栏 运营商"/>
@@ -205,8 +205,17 @@
                                     <action selector="statusCarrierBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ery-9p-dp2"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="v20221104_1642" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUw-Yb-Wxj">
-                                <rect key="frame" x="123" y="43" width="130" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cSD-hA-7Rx">
+                                <rect key="frame" x="6" y="608" width="148" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="UDID"/>
+                                <connections>
+                                    <action selector="udidBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7dC-vA-2iY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="v20230615_2104" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUw-Yb-Wxj">
+                                <rect key="frame" x="123" y="43" width="135" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -214,7 +223,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="serviceString" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvd-vx-9lK">
-                                <rect key="frame" x="162" y="596" width="194" height="21"/>
+                                <rect key="frame" x="162" y="571" width="194" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                                 <color key="tintColor" systemColor="systemGray3Color"/>
@@ -228,6 +237,15 @@
                                 <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                                 <color key="tintColor" systemColor="systemGray3Color"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UniqueDeviceID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iOs-lW-bjg">
+                                <rect key="frame" x="162" y="614" width="194" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                                <color key="tintColor" systemColor="systemGray3Color"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -250,6 +268,7 @@
                         <outlet property="statusServiceStrLbl" destination="mvd-vx-9lK" id="yGY-iP-EFB"/>
                         <outlet property="systemNameLbl" destination="mWd-pv-Byj" id="PXh-2e-vey"/>
                         <outlet property="systemVersionLbl" destination="x76-bk-1Zw" id="h6j-kI-ZGf"/>
+                        <outlet property="udidLbl" destination="iOs-lW-bjg" id="4lY-bs-A2n"/>
                         <outlet property="variantLbl" destination="zll-d5-VvD" id="asz-I8-S0x"/>
                     </connections>
                 </viewController>

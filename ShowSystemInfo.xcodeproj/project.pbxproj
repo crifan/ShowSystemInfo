@@ -17,6 +17,7 @@
 		983DD1CE29150714003C4194 /* ShowSystemInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 983DD1CD29150714003C4194 /* ShowSystemInfoTests.m */; };
 		983DD1D829150715003C4194 /* ShowSystemInfoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 983DD1D729150715003C4194 /* ShowSystemInfoUITests.m */; };
 		983DD1DA29150715003C4194 /* ShowSystemInfoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 983DD1D929150715003C4194 /* ShowSystemInfoUITestsLaunchTests.m */; };
+		98527C5D2A3B179400F882FF /* libMobileGestalt.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 98527C5C2A3B179400F882FF /* libMobileGestalt.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		983DD1D329150715003C4194 /* ShowSystemInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowSystemInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		983DD1D729150715003C4194 /* ShowSystemInfoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowSystemInfoUITests.m; sourceTree = "<group>"; };
 		983DD1D929150715003C4194 /* ShowSystemInfoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowSystemInfoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		98527C5C2A3B179400F882FF /* libMobileGestalt.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMobileGestalt.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/lib/libMobileGestalt.tbd; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98527C5D2A3B179400F882FF /* libMobileGestalt.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +91,7 @@
 				983DD1CC29150714003C4194 /* ShowSystemInfoTests */,
 				983DD1D629150715003C4194 /* ShowSystemInfoUITests */,
 				983DD1AF29150710003C4194 /* Products */,
+				98527C5B2A3B179400F882FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +138,14 @@
 				983DD1D929150715003C4194 /* ShowSystemInfoUITestsLaunchTests.m */,
 			);
 			path = ShowSystemInfoUITests;
+			sourceTree = "<group>";
+		};
+		98527C5B2A3B179400F882FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98527C5C2A3B179400F882FF /* libMobileGestalt.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
